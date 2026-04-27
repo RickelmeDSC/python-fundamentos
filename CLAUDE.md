@@ -17,16 +17,16 @@ Fase 1 — Fundamentos (Semanas 1–3).
 Estudando: Python para Dados (funções, estruturas de dados, exceções).
 
 ### Exercícios já criados
-- `Estrutura-De-Dados-04/exercicio_01_soma_sublistas.py`
-- `Estrutura-De-Dados-04/exercicio_02_terceiro_elemento_tuplas.py`
-- `Estrutura-De-Dados-04/exercicio_03_lista_tuplas_posicao.py`
-- `ListComprehensions-05/exercicio_04_filtro_apartamento.py`
-- `Dicionarios-06/exercicio_05_dict_comprehension_meses.py`
-- `ListComprehensions-05/exercicio_06_filtro_vendas_2022.py`
-- `ListComprehensions-05/exercicio_07_rotulo_glicemia.py`
-- `ListComprehensions-05/exercicio_08_tabela_ecommerce.py`
-- `Dicionarios-06/exercicio_09_contagem_filiais.py`
-- `Dicionarios-06/exercicio_10_soma_funcionarios_por_estado.py`
+- `04-Estrutura-De-Dados/exercicio_01_soma_sublistas.py`
+- `04-Estrutura-De-Dados/exercicio_02_terceiro_elemento_tuplas.py`
+- `04-Estrutura-De-Dados/exercicio_03_lista_tuplas_posicao.py`
+- `05-ListComprehensions/exercicio_04_filtro_apartamento.py`
+- `06-Dicionarios/exercicio_05_dict_comprehension_meses.py`
+- `05-ListComprehensions/exercicio_06_filtro_vendas_2022.py`
+- `05-ListComprehensions/exercicio_07_rotulo_glicemia.py`
+- `05-ListComprehensions/exercicio_08_tabela_ecommerce.py`
+- `06-Dicionarios/exercicio_09_contagem_filiais.py`
+- `06-Dicionarios/exercicio_10_soma_funcionarios_por_estado.py`
 
 ## Stack completa do roadmap (em ordem de aprendizado)
 - **Linguagem:** Python 3.11+
@@ -60,12 +60,12 @@ github.com/RickelmeDSC/
 ## Estrutura deste repositório
 ```
 python-fundamentos/
-├── Variaveis-e-Tipos-01/
-├── Condicionais-e-Loops-02/
-├── Funcoes-03/
-├── Estrutura-De-Dados-04/
-├── ListComprehensions-05/
-├── Dicionarios-06/
+├── 01-Variaveis-e-Tipos/
+├── 02-Condicionais-e-Loops/
+├── 03-Funcoes/
+├── 04-Estrutura-De-Dados/
+├── 05-ListComprehensions/
+├── 06-Dicionarios/
 ├── Skills/
 ├── CLAUDE.md
 └── README.md

@@ -25,19 +25,19 @@ Este repositório cobre os fundamentos de Python com foco em Dados: sintaxe, est
 
 ```
 python-fundamentos/
-├── Variaveis-e-Tipos-01/
-├── Condicionais-e-Loops-02/
-├── Funcoes-03/
-├── Estrutura-De-Dados-04/
+├── 01-Variaveis-e-Tipos/
+├── 02-Condicionais-e-Loops/
+├── 03-Funcoes/
+├── 04-Estrutura-De-Dados/
 │   ├── exercicio_01_soma_sublistas.py
 │   ├── exercicio_02_terceiro_elemento_tuplas.py
 │   └── exercicio_03_lista_tuplas_posicao.py
-├── ListComprehensions-05/
+├── 05-ListComprehensions/
 │   ├── exercicio_04_filtro_apartamento.py
 │   ├── exercicio_06_filtro_vendas_2022.py
 │   ├── exercicio_07_rotulo_glicemia.py
 │   └── exercicio_08_tabela_ecommerce.py
-└── Dicionarios-06/
+└── 06-Dicionarios/
     ├── exercicio_05_dict_comprehension_meses.py
     ├── exercicio_09_contagem_filiais.py
     └── exercicio_10_soma_funcionarios_por_estado.py
@@ -47,14 +47,14 @@ python-fundamentos/
 
 ## Exercícios
 
-### Estrutura-De-Dados-04
+### 04-Estrutura-De-Dados
 | # | Descrição | Conceitos |
 |---|-----------|-----------|
 | 01 | Soma dos elementos de cada sublista | `for`, `sum()`, listas aninhadas |
 | 02 | Terceiro elemento de cada tupla em uma lista | indexação de tuplas, list comprehension |
 | 03 | Lista de tuplas `(posição, nome)` a partir de uma lista | `enumerate()`, tuplas |
 
-### ListComprehensions-05
+### 05-ListComprehensions
 | # | Descrição | Conceitos |
 |---|-----------|-----------|
 | 04 | Filtrar valores de tuplas pelo tipo (`'Apartamento'`) | list comprehension com `if` |
@@ -62,7 +62,7 @@ python-fundamentos/
 | 07 | Classificar valores de glicemia em rótulos clínicos | expressão ternária aninhada |
 | 08 | Montar tabela de vendas e-commerce com cabeçalho e total | `zip()`, cálculo inline, list comprehension |
 
-### Dicionarios-06
+### 06-Dicionarios
 | # | Descrição | Conceitos |
 |---|-----------|-----------|
 | 05 | Dicionário mês → despesa com dict comprehension | `zip()`, dict comprehension |
@@ -76,7 +76,7 @@ python-fundamentos/
 Qualquer script pode ser executado diretamente:
 
 ```bash
-python Estrutura-De-Dados-04/exercicio_01_soma_sublistas.py
+python 04-Estrutura-De-Dados/exercicio_01_soma_sublistas.py
 ```
 
 Requisito: **Python 3.11+**
