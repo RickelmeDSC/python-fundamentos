@@ -16,6 +16,13 @@ Ricklelme (RickelmeDSC). Estou em transição de carreira para Análise de Dados
 Fase 1 — Fundamentos (Semanas 1–3).
 Estudando: Python para Dados (funções, estruturas de dados, exceções).
 
+### Exercícios já criados
+- `04_estruturas_de_dados/exercicio_01_soma_sublistas.py`
+- `04_estruturas_de_dados/exercicio_02_terceiro_elemento_tuplas.py`
+- `04_estruturas_de_dados/exercicio_03_lista_tuplas_posicao.py`
+- `05_list_comprehensions/exercicio_04_filtro_apartamento.py`
+- `06_dicionarios/exercicio_05_dict_comprehension_meses.py`
+
 ## Stack completa do roadmap (em ordem de aprendizado)
 - **Linguagem:** Python 3.11+
 - **SQL:** SQLite (fundamentos) → BigQuery (cloud)
