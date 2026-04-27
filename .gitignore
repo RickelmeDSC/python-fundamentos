@@ -218,4 +218,4 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Ferramentas externas (frameworks baixados, não código do projeto)
-Skills/
+/Skills/
