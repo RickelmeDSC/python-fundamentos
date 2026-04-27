@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)",
+      "PowerShell(winget --version 2>&1)",
+      "PowerShell(winget install OpenJS.NodeJS.LTS --accept-source-agreements --accept-package-agreements)",
+      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); node --version; npm --version)",
+      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; Set-Location \"c:\\\\Users\\\\ti_rickelme\\\\python-fundamentos\\\\Skills\\\\get-shit-done-main\"; node bin/install.js --claude --global)",
+      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; Set-Location \"c:\\\\Users\\\\ti_rickelme\\\\python-fundamentos\\\\Skills\\\\get-shit-done-main\\\\sdk\"; npm install 2>&1 | Select-Object -Last 5)",
+      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; Set-Location \"c:\\\\Users\\\\ti_rickelme\\\\python-fundamentos\\\\Skills\\\\get-shit-done-main\\\\sdk\"; node \"C:\\\\Program Files\\\\nodejs\\\\node_modules\\\\npm\\\\bin\\\\npm-cli.js\" run build 2>&1 | Select-Object -Last 10)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
