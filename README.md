@@ -33,9 +33,14 @@ python-fundamentos/
 │   ├── exercicio_02_terceiro_elemento_tuplas.py
 │   └── exercicio_03_lista_tuplas_posicao.py
 ├── 05_list_comprehensions/
-│   └── exercicio_04_filtro_apartamento.py
+│   ├── exercicio_04_filtro_apartamento.py
+│   ├── exercicio_06_filtro_vendas_2022.py
+│   ├── exercicio_07_rotulo_glicemia.py
+│   └── exercicio_08_tabela_ecommerce.py
 └── 06_dicionarios/
-    └── exercicio_05_dict_comprehension_meses.py
+    ├── exercicio_05_dict_comprehension_meses.py
+    ├── exercicio_09_contagem_filiais.py
+    └── exercicio_10_soma_funcionarios_por_estado.py
 ```
 
 ---
@@ -53,11 +58,16 @@ python-fundamentos/
 | # | Descrição | Conceitos |
 |---|-----------|-----------|
 | 04 | Filtrar valores de tuplas pelo tipo (`'Apartamento'`) | list comprehension com `if` |
+| 06 | Filtrar vendas de 2022 com valor acima de 6000 | list comprehension com `and` |
+| 07 | Classificar valores de glicemia em rótulos clínicos | expressão ternária aninhada |
+| 08 | Montar tabela de vendas e-commerce com cabeçalho e total | `zip()`, cálculo inline, list comprehension |
 
 ### 06 — Dicionários
 | # | Descrição | Conceitos |
 |---|-----------|-----------|
 | 05 | Dicionário mês → despesa com dict comprehension | `zip()`, dict comprehension |
+| 09 | Contar filiais por estado | `set()`, dict comprehension, passo intermediário |
+| 10 | Agrupar e somar colaboradores por estado | dict comprehension encadeado, `.items()` |
 
 ---
 

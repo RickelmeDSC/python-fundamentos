@@ -22,6 +22,11 @@ Estudando: Python para Dados (funções, estruturas de dados, exceções).
 - `04_estruturas_de_dados/exercicio_03_lista_tuplas_posicao.py`
 - `05_list_comprehensions/exercicio_04_filtro_apartamento.py`
 - `06_dicionarios/exercicio_05_dict_comprehension_meses.py`
+- `05_list_comprehensions/exercicio_06_filtro_vendas_2022.py`
+- `05_list_comprehensions/exercicio_07_rotulo_glicemia.py`
+- `05_list_comprehensions/exercicio_08_tabela_ecommerce.py`
+- `06_dicionarios/exercicio_09_contagem_filiais.py`
+- `06_dicionarios/exercicio_10_soma_funcionarios_por_estado.py`
 
 ## Stack completa do roadmap (em ordem de aprendizado)
 - **Linguagem:** Python 3.11+
