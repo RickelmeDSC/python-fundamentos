@@ -6,10 +6,12 @@ estados = [
     'ES', 'SP', 'MG',
 ]
 
-# passo intermediário: lista de listas, cada uma com as ocorrências de um único estado
+# Por que set(estados)? set() remove duplicatas — sem ele, o loop externo repetiria
+# estados que aparecem mais de uma vez, gerando listas redundantes.
 listas_por_estado = [[e for e in estados if e == estado] for estado in set(estados)]
 
-# dict comprehension: chave = nome do estado, valor = quantidade de ocorrências
+# Por que passo intermediário em vez de contar direto?
+# Separar "agrupar" de "contar" facilita depuração: dá para inspecionar listas_por_estado antes de reduzir.
 contagem_filiais = {lista[0]: len(lista) for lista in listas_por_estado}
 
 print(contagem_filiais)

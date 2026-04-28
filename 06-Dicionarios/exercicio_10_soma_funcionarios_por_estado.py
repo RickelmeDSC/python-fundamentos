@@ -10,10 +10,11 @@ funcionarios = [
 
 estados_unicos = set(f[0] for f in funcionarios)
 
-# dicionário 1: estado -> lista com todos os valores de colaboradores daquele estado
+# Por que dois dicionários separados em vez de calcular a soma direto?
+# dict_listas permite inspecionar os valores agrupados antes de somá-los — útil para depurar.
 dict_listas = {estado: [f[1] for f in funcionarios if f[0] == estado] for estado in estados_unicos}
 
-# dicionário 2: estado -> soma dos colaboradores (reutiliza dict_listas)
+# .items() retorna pares (chave, valor) — permite reutilizar dict_listas sem reler a lista original.
 dict_soma = {estado: sum(valores) for estado, valores in dict_listas.items()}
 
 print('Listas por estado:')

@@ -7,7 +7,8 @@ vendas = [
     ('2022', 4226), ('2022', 8190), ('2021', 9680), ('2022', 5616),
 ]
 
-# filtra tuplas onde o ano é '2022' e o valor de venda supera 6000
+# Por que comparar com '2022' (string) e não 2022 (int)?
+# O ano está definido como string no literal da tupla — comparar com int nunca seria True.
 vendas_2022_acima_6000 = [venda for venda in vendas if venda[0] == '2022' and venda[1] > 6000]
 
 print(vendas_2022_acima_6000)

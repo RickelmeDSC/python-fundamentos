@@ -37,10 +37,15 @@ python-fundamentos/
 │   ├── exercicio_06_filtro_vendas_2022.py
 │   ├── exercicio_07_rotulo_glicemia.py
 │   └── exercicio_08_tabela_ecommerce.py
-└── 06-Dicionarios/
-    ├── exercicio_05_dict_comprehension_meses.py
-    ├── exercicio_09_contagem_filiais.py
-    └── exercicio_10_soma_funcionarios_por_estado.py
+├── 06-Dicionarios/
+│   ├── exercicio_05_dict_comprehension_meses.py
+│   ├── exercicio_09_contagem_filiais.py
+│   └── exercicio_10_soma_funcionarios_por_estado.py
+└── 07-Excecoes/
+    ├── exercicio_11_divisao_com_excecoes.py
+    ├── exercicio_12_busca_dicionario.py
+    ├── exercicio_13_converte_lista_float.py
+    └── exercicio_14_agrupa_listas_tuplas.py
 ```
 
 ---
@@ -68,6 +73,14 @@ python-fundamentos/
 | 05 | Dicionário mês → despesa com dict comprehension | `zip()`, dict comprehension |
 | 09 | Contar filiais por estado | `set()`, dict comprehension, passo intermediário |
 | 10 | Agrupar e somar colaboradores por estado | dict comprehension encadeado, `.items()` |
+
+### 07-Excecoes
+| # | Descrição | Conceitos |
+|---|-----------|-----------|
+| 11 | Divisão com tratamento de `ValueError` e `ZeroDivisionError` | `try/except` múltiplo, `type(e).__name__` |
+| 12 | Busca em dicionário com tratamento de `KeyError` | `try/except KeyError`, input do usuário |
+| 13 | Converte lista para float com `finally` | `try/except/finally`, função com retorno condicional |
+| 14 | Agrupa duas listas em tuplas com `raise` manual | `raise`, `IndexError`, `TypeError` |
 
 ---
 

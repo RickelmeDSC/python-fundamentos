@@ -2,7 +2,8 @@
 
 lista = ['Pedro', 'Júlia', 'Otávio', 'Eduardo']
 
-# enumerate retorna pares (índice, valor) que são convertidos em tuplas na nova lista
+# Por que enumerate() em vez de range(len(lista))?
+# enumerate() entrega o par (índice, valor) diretamente — sem precisar acessar lista[i] manualmente.
 lista_com_posicao = [(i, nome) for i, nome in enumerate(lista)]
 
 print(lista_com_posicao)
