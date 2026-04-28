@@ -32,6 +32,9 @@ Estudando: Python para Dados (funções, estruturas de dados, exceções).
 - `07-Excecoes/exercicio_13_converte_lista_float.py`
 - `07-Excecoes/exercicio_14_agrupa_listas_tuplas.py`
 
+### Desafios já criados
+- `07-Excecoes/desafio_01_pontuacao_estudantes.py`
+
 ## Stack completa do roadmap (em ordem de aprendizado)
 - **Linguagem:** Python 3.11+
 - **SQL:** SQLite (fundamentos) → BigQuery (cloud)

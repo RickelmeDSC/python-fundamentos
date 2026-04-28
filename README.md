@@ -45,7 +45,8 @@ python-fundamentos/
     ├── exercicio_11_divisao_com_excecoes.py
     ├── exercicio_12_busca_dicionario.py
     ├── exercicio_13_converte_lista_float.py
-    └── exercicio_14_agrupa_listas_tuplas.py
+    ├── exercicio_14_agrupa_listas_tuplas.py
+    └── desafio_01_pontuacao_estudantes.py
 ```
 
 ---
@@ -81,6 +82,11 @@ python-fundamentos/
 | 12 | Busca em dicionário com tratamento de `KeyError` | `try/except KeyError`, input do usuário |
 | 13 | Converte lista para float com `finally` | `try/except/finally`, função com retorno condicional |
 | 14 | Agrupa duas listas em tuplas com `raise` manual | `raise`, `IndexError`, `TypeError` |
+
+### 07-Excecoes — Desafios
+| # | Descrição | Conceitos |
+|---|-----------|-----------|
+| 01 | Pontuação de estudantes com validação de alternativas | `raise ValueError`, validação pré-cálculo, `zip()` |
 
 ---
 
