@@ -46,7 +46,9 @@ python-fundamentos/
     ├── exercicio_12_busca_dicionario.py
     ├── exercicio_13_converte_lista_float.py
     ├── exercicio_14_agrupa_listas_tuplas.py
-    └── desafio_01_pontuacao_estudantes.py
+    ├── desafio_01_pontuacao_estudantes.py
+    ├── desafio_02_verificacao_pontuacao_nlp.py
+    └── desafio_03_divide_colunas.py
 ```
 
 ---
@@ -87,6 +89,8 @@ python-fundamentos/
 | # | Descrição | Conceitos |
 |---|-----------|-----------|
 | 01 | Pontuação de estudantes com validação de alternativas | `raise ValueError`, validação pré-cálculo, `zip()` |
+| 02 | Verificação de pontuações em texto NLP | `raise ValueError`, `in`, `or`, pré-processamento |
+| 03 | Divisão de colunas experimentais (pressão/temperatura) | `try/except` duplo, `ValueError`, `ZeroDivisionError` |
 
 ---
 

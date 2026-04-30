@@ -34,6 +34,8 @@ Estudando: Python para Dados (funções, estruturas de dados, exceções).
 
 ### Desafios já criados
 - `07-Excecoes/desafio_01_pontuacao_estudantes.py`
+- `07-Excecoes/desafio_02_verificacao_pontuacao_nlp.py`
+- `07-Excecoes/desafio_03_divide_colunas.py`
 
 ## Stack completa do roadmap (em ordem de aprendizado)
 - **Linguagem:** Python 3.11+
