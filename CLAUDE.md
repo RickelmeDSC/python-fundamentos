@@ -13,10 +13,10 @@ Ricklelme (RickelmeDSC). Estou em transição de carreira para Análise de Dados
 | Fase 4 — Diferenciação | 14–22 | Claude API, LangChain, RAG, LangGraph, ML, MLOps | Agente Analista Autônomo |
 
 ## Fase atual
-Fase 1 — Fundamentos (Semanas 1–3).
-Estudando: Python para Dados (funções, estruturas de dados, exceções).
+Fase 2 — Ferramentas (Semana 4). Fase 1 (Fundamentos) concluída.
+Estudando: Pandas I/O — leitura/escrita de CSV, Excel, JSON, HTML/XML e banco de dados (SQLite via SQLAlchemy).
 
-### Exercícios já criados
+### Fase 1 — Exercícios já criados
 - `04-Estrutura-De-Dados/exercicio_01_soma_sublistas.py`
 - `04-Estrutura-De-Dados/exercicio_02_terceiro_elemento_tuplas.py`
 - `04-Estrutura-De-Dados/exercicio_03_lista_tuplas_posicao.py`
@@ -32,10 +32,24 @@ Estudando: Python para Dados (funções, estruturas de dados, exceções).
 - `07-Excecoes/exercicio_13_converte_lista_float.py`
 - `07-Excecoes/exercicio_14_agrupa_listas_tuplas.py`
 
-### Desafios já criados
+### Fase 1 — Desafios já criados
 - `07-Excecoes/desafio_01_pontuacao_estudantes.py`
 - `07-Excecoes/desafio_02_verificacao_pontuacao_nlp.py`
 - `07-Excecoes/desafio_03_divide_colunas.py`
+
+### Fase 1 — Estatística (`08-Estatistica/`)
+- `01_distribuicao_frequencia.py`
+- `02_tendencia_central.py`
+- `03_separatrizes.py`
+- `04_dispersao.py`
+
+### Fase 2 — Pandas I/O (`09-Pandas-IO/`)
+Curso Alura "Pandas I/O: trabalhando com diferentes formatos de arquivos". Dependências extras documentadas em `09-Pandas-IO/README.md`.
+- `01_csv/` — leitura/escrita de CSV (concluído)
+- `02_excel/` — Excel e Google Sheets (concluído)
+- `03_json/` — JSON aninhado e normalização de resposta de API (concluído)
+- `04_html_xml/` — tabelas HTML (Wikipedia) e XML (concluído)
+- `05_banco_dados/` — SQLite via SQLAlchemy, CRUD (concluído)
 
 ## Stack completa do roadmap (em ordem de aprendizado)
 - **Linguagem:** Python 3.11+
@@ -59,7 +73,7 @@ Estudando: Python para Dados (funções, estruturas de dados, exceções).
 ## Repositórios planejados
 ```
 github.com/RickelmeDSC/
-├── python-fundamentos           ← este repo (exercícios Fase 1)
+├── python-fundamentos           ← este repo (exercícios Fase 1-2)
 ├── dashboard-financas-pessoais  ← Projeto 1
 ├── ecommerce-analytics          ← Projeto 2
 ├── pipeline-noticias-ia         ← Projeto 3
@@ -76,6 +90,14 @@ python-fundamentos/
 ├── 05-ListComprehensions/
 ├── 06-Dicionarios/
 ├── 07-Excecoes/
+├── 08-Estatistica/
+├── 09-Pandas-IO/
+│   ├── 01_csv/
+│   ├── 02_excel/
+│   ├── 03_json/
+│   ├── 04_html_xml/
+│   ├── 05_banco_dados/
+│   └── README.md        ← dependências extras e status das aulas
 ├── Skills/
 ├── CLAUDE.md
 └── README.md
@@ -83,11 +105,16 @@ python-fundamentos/
 
 ## Regras de código
 - Python 3.11+
-- Scripts rodam standalone (sem dependências externas nesta fase)
 - snake_case para variáveis e funções
 - Docstring no topo de cada arquivo .py
 - Comentários em português (repositório de estudo)
+
+### Fase 1 (pastas `01-` a `08-`)
 - Apenas Python puro — sem bibliotecas externas
+
+### Fase 2 em diante (`09-Pandas-IO/` e módulos seguintes)
+- Bibliotecas usadas são as documentadas no README de cada módulo (ex.: `09-Pandas-IO/README.md` lista pandas, openpyxl, lxml, html5lib, sqlalchemy, requests)
+- Não instalar nada além do que já está listado nesses READMEs sem confirmar antes
 
 ## Convenções de commit
 - `feat: adiciona exercícios de [tópico]`
@@ -104,6 +131,6 @@ python-fundamentos/
 - Responder em português
 
 ## O que NÃO fazer
-- Não instalar bibliotecas externas (Pandas, NumPy vêm depois)
+- Não instalar bibliotecas fora das documentadas para a fase/módulo atual (ver "Regras de código" acima)
 - Não criar soluções complexas demais — clareza > elegância
 - Não misturar exercícios de tópicos diferentes no mesmo arquivo

@@ -1,12 +1,12 @@
 # Python Fundamentos
 
-Repositório de exercícios e estudos de Python da **Fase 1** de um roadmap estruturado de 22 semanas em transição de carreira para **Análise de Dados + IA + Automação**.
+Repositório de exercícios e estudos de Python de um roadmap estruturado de 22 semanas em transição de carreira para **Análise de Dados + IA + Automação**. Cobre a **Fase 1 completa** e está em andamento na **Fase 2** (Semana 4).
 
 ---
 
 ## Sobre
 
-Este repositório cobre os fundamentos de Python com foco em Dados: sintaxe, estruturas, funções e padrões que aparecem no dia a dia de scripts de análise. Todos os scripts rodam standalone com Python puro — sem dependências externas.
+Este repositório cobre os fundamentos de Python com foco em Dados: sintaxe, estruturas, funções, estatística e, a partir da Fase 2, Pandas para leitura/escrita de diferentes formatos de arquivo. Os scripts da Fase 1 (pastas `01-` a `08-`) rodam standalone com Python puro — sem dependências externas. A partir da Fase 2 (`09-Pandas-IO/` em diante), bibliotecas como pandas, sqlalchemy e requests passam a ser usadas — veja o README de cada módulo para a lista exata.
 
 ---
 
@@ -14,8 +14,8 @@ Este repositório cobre os fundamentos de Python com foco em Dados: sintaxe, est
 
 | Fase | Semanas | Foco | Projeto final |
 |------|---------|------|---------------|
-| **Fase 1 — Fundamentos** | 1–3 | Python, SQL (SQLite), Estatística, Pandas intro | Dashboard de Finanças Pessoais |
-| Fase 2 — Ferramentas | 4–7 | Pandas completo, SQL joins, Power BI, DAX | Análise E-commerce (Olist) |
+| Fase 1 — Fundamentos | 1–3 | Python, SQL (SQLite), Estatística, Pandas intro | Dashboard de Finanças Pessoais |
+| **Fase 2 — Ferramentas** | 4–7 | Pandas completo, SQL joins, Power BI, DAX | Análise E-commerce (Olist) |
 | Fase 3 — Profissionalização | 8–13 | BigQuery, APIs, n8n, Make, IA aplicada | Pipeline de Notícias com IA |
 | Fase 4 — Diferenciação | 14–22 | Claude API, LangChain, RAG, LangGraph, ML, MLOps | Agente Analista Autônomo |
 
@@ -41,14 +41,25 @@ python-fundamentos/
 │   ├── exercicio_05_dict_comprehension_meses.py
 │   ├── exercicio_09_contagem_filiais.py
 │   └── exercicio_10_soma_funcionarios_por_estado.py
-└── 07-Excecoes/
-    ├── exercicio_11_divisao_com_excecoes.py
-    ├── exercicio_12_busca_dicionario.py
-    ├── exercicio_13_converte_lista_float.py
-    ├── exercicio_14_agrupa_listas_tuplas.py
-    ├── desafio_01_pontuacao_estudantes.py
-    ├── desafio_02_verificacao_pontuacao_nlp.py
-    └── desafio_03_divide_colunas.py
+├── 07-Excecoes/
+│   ├── exercicio_11_divisao_com_excecoes.py
+│   ├── exercicio_12_busca_dicionario.py
+│   ├── exercicio_13_converte_lista_float.py
+│   ├── exercicio_14_agrupa_listas_tuplas.py
+│   ├── desafio_01_pontuacao_estudantes.py
+│   ├── desafio_02_verificacao_pontuacao_nlp.py
+│   └── desafio_03_divide_colunas.py
+├── 08-Estatistica/
+│   ├── 01_distribuicao_frequencia.py
+│   ├── 02_tendencia_central.py
+│   ├── 03_separatrizes.py
+│   └── 04_dispersao.py
+└── 09-Pandas-IO/          ← Fase 2 — ver README próprio (dependências e status)
+    ├── 01_csv/
+    ├── 02_excel/
+    ├── 03_json/
+    ├── 04_html_xml/
+    └── 05_banco_dados/
 ```
 
 ---
@@ -92,6 +103,22 @@ python-fundamentos/
 | 02 | Verificação de pontuações em texto NLP | `raise ValueError`, `in`, `or`, pré-processamento |
 | 03 | Divisão de colunas experimentais (pressão/temperatura) | `try/except` duplo, `ValueError`, `ZeroDivisionError` |
 
+### 08-Estatistica
+| # | Descrição | Conceitos |
+|---|-----------|-----------|
+| 01 | Distribuição de frequência | classes, frequência absoluta/relativa |
+| 02 | Medidas de tendência central | média, mediana, moda |
+| 03 | Separatrizes | quartis, decis, percentis |
+| 04 | Medidas de dispersão | variância, desvio padrão, coeficiente de variação |
+
+---
+
+## 09-Pandas-IO (Fase 2)
+
+Módulo separado — curso Alura "Pandas I/O: trabalhando com diferentes formatos de arquivos". Cobre leitura/escrita de CSV, Excel, JSON, HTML/XML e banco de dados (SQLite via SQLAlchemy).
+
+Como esse módulo usa dependências externas (pandas, sqlalchemy, requests, etc.), a lista completa de pacotes e o status de cada aula estão em [`09-Pandas-IO/README.md`](09-Pandas-IO/README.md).
+
 ---
 
 ## Como executar
@@ -111,7 +138,8 @@ Requisito: **Python 3.11+**
 - `snake_case` para variáveis e funções
 - Docstring no topo de cada arquivo
 - Comentários em português
-- Apenas Python puro (sem bibliotecas externas nesta fase)
+- Fase 1 (pastas `01-` a `08-`): apenas Python puro, sem bibliotecas externas
+- Fase 2 em diante (`09-Pandas-IO/` e módulos seguintes): bibliotecas documentadas no README de cada módulo
 
 ---
 
@@ -119,7 +147,7 @@ Requisito: **Python 3.11+**
 
 | Repositório | Fase | Status |
 |-------------|------|--------|
-| [python-fundamentos](https://github.com/RickelmeDSC/python-fundamentos) | Fase 1 | Em andamento |
+| [python-fundamentos](https://github.com/RickelmeDSC/python-fundamentos) | Fase 1-2 | Em andamento |
 | dashboard-financas-pessoais | Fase 1 | Pendente |
 | ecommerce-analytics | Fase 2 | Pendente |
 | pipeline-noticias-ia | Fase 3 | Pendente |
