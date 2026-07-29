@@ -219,3 +219,6 @@ __marimo__/
 
 # Ferramentas externas (frameworks baixados, não código do projeto)
 /Skills/
+
+# Datasets pesados de curso (baixar conforme instrucoes no README de cada modulo)
+10-Pandas-Selecionando-Agrupando/**/dados/*.xlsx

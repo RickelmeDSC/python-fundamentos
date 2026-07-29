@@ -24,7 +24,7 @@ Este repositório cobre os fundamentos de Python com foco em Dados: sintaxe, est
 ## Estrutura
 
 ```
-python-fundamentos/
+python-fundamentos/ 
 ├── 01-Variaveis-e-Tipos/
 ├── 02-Condicionais-e-Loops/
 ├── 03-Funcoes/
@@ -54,12 +54,17 @@ python-fundamentos/
 │   ├── 02_tendencia_central.py
 │   ├── 03_separatrizes.py
 │   └── 04_dispersao.py
-└── 09-Pandas-IO/          ← Fase 2 — ver README próprio (dependências e status)
-    ├── 01_csv/
-    ├── 02_excel/
-    ├── 03_json/
-    ├── 04_html_xml/
-    └── 05_banco_dados/
+├── 09-Pandas-IO/          ← Fase 2 — ver README próprio (dependências e status)
+│   ├── 01_csv/
+│   ├── 02_excel/
+│   ├── 03_json/
+│   ├── 04_html_xml/
+│   └── 05_banco_dados/
+└── 10-Pandas-Selecionando-Agrupando/   ← Fase 2 — ver README próprio (dados e status)
+    ├── 01_conhecendo_os_dados/
+    ├── 02_agrupamento_de_dados/
+    ├── 03_agrupamentos_multi_index/
+    └── 04_unindo_dados/
 ```
 
 ---
@@ -118,6 +123,14 @@ python-fundamentos/
 Módulo separado — curso Alura "Pandas I/O: trabalhando com diferentes formatos de arquivos". Cobre leitura/escrita de CSV, Excel, JSON, HTML/XML e banco de dados (SQLite via SQLAlchemy).
 
 Como esse módulo usa dependências externas (pandas, sqlalchemy, requests, etc.), a lista completa de pacotes e o status de cada aula estão em [`09-Pandas-IO/README.md`](09-Pandas-IO/README.md).
+
+---
+
+## 10-Pandas-Selecionando-Agrupando (Fase 2)
+
+Módulo separado — curso Alura "Pandas: selecionando e agrupando dados". Cobre `loc`/`iloc`/`query`, `groupby` com múltiplas agregações, `MultiIndex` e `merge`/`join`/`concat`.
+
+O dataset (planilha do SEEG, ~78 MB) **não é versionado**. As instruções de download e o status de cada aula estão em [`10-Pandas-Selecionando-Agrupando/README.md`](10-Pandas-Selecionando-Agrupando/README.md).
 
 ---
 

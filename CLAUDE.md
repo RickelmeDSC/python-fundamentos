@@ -14,7 +14,7 @@ Ricklelme (RickelmeDSC). Estou em transição de carreira para Análise de Dados
 
 ## Fase atual
 Fase 2 — Ferramentas (Semana 4). Fase 1 (Fundamentos) concluída.
-Estudando: Pandas I/O — leitura/escrita de CSV, Excel, JSON, HTML/XML e banco de dados (SQLite via SQLAlchemy).
+Estudando: Pandas — selecionando e agrupando dados (`loc`/`iloc`/`query`, `groupby`, `MultiIndex`, `merge`/`join`/`concat`). Pandas I/O concluído.
 
 ### Fase 1 — Exercícios já criados
 - `04-Estrutura-De-Dados/exercicio_01_soma_sublistas.py`
@@ -50,6 +50,13 @@ Curso Alura "Pandas I/O: trabalhando com diferentes formatos de arquivos". Depen
 - `03_json/` — JSON aninhado e normalização de resposta de API (concluído)
 - `04_html_xml/` — tabelas HTML (Wikipedia) e XML (concluído)
 - `05_banco_dados/` — SQLite via SQLAlchemy, CRUD (concluído)
+
+### Fase 2 — Pandas selecionando e agrupando (`10-Pandas-Selecionando-Agrupando/`)
+Curso Alura "Pandas: selecionando e agrupando dados" (Nível 1 #16). Dataset: planilha SEEG (~78 MB, aba `GEE Estados`) — **não versionada**, instruções de download em `10-Pandas-Selecionando-Agrupando/README.md`.
+- `01_conhecendo_os_dados/` — em andamento
+- `02_agrupamento_de_dados/` — pendente
+- `03_agrupamentos_multi_index/` — pendente
+- `04_unindo_dados/` — pendente
 
 ## Stack completa do roadmap (em ordem de aprendizado)
 - **Linguagem:** Python 3.11+
@@ -98,6 +105,12 @@ python-fundamentos/
 │   ├── 04_html_xml/
 │   ├── 05_banco_dados/
 │   └── README.md        ← dependências extras e status das aulas
+├── 10-Pandas-Selecionando-Agrupando/
+│   ├── 01_conhecendo_os_dados/
+│   ├── 02_agrupamento_de_dados/
+│   ├── 03_agrupamentos_multi_index/
+│   ├── 04_unindo_dados/
+│   └── README.md        ← download do dataset SEEG e status das aulas
 ├── Skills/
 ├── CLAUDE.md
 └── README.md
