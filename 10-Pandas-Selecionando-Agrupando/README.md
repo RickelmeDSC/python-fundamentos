@@ -13,6 +13,8 @@ Parte da minha jornada de transição para Análise de Dados — **Semana 4 (Fas
 | 03 | Agrupamentos multi-index | 10 | ⏳ Pendente |
 | 04 | Unindo dados | 15 | ⏳ Pendente |
 
+📋 Referência rápida dos métodos do curso: [`CHEATSHEET.md`](CHEATSHEET.md) (as seções das aulas 02–04 são antecipação — marcadas por aula)
+
 ## 🎯 Pontos de foco deste curso
 
 - `loc` vs `iloc` vs `query` — seleção de dados

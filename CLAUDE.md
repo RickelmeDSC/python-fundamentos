@@ -38,6 +38,7 @@ Estudando: Pandas — selecionando e agrupando dados (`loc`/`iloc`/`query`, `gro
 - `07-Excecoes/desafio_03_divide_colunas.py`
 
 ### Fase 1 — Estatística (`08-Estatistica/`)
+**⚠️ Pendência:** os quatro arquivos abaixo existem mas estão **vazios (0 bytes)** desde o commit inicial — o conteúdo nunca foi implementado. O `CHEATSHEET.md` do módulo cobre a teoria prevista.
 - `01_distribuicao_frequencia.py`
 - `02_tendencia_central.py`
 - `03_separatrizes.py`
@@ -117,10 +118,11 @@ python-fundamentos/
 ```
 
 ## Regras de código
-- Python 3.11+
+- Python 3.11+ (nesta máquina o interpretador é chamado com `py`, não `python`)
 - snake_case para variáveis e funções
 - Docstring no topo de cada arquivo .py
 - Comentários em português (repositório de estudo)
+- Cada módulo com conteúdo (`04-` em diante) tem um `CHEATSHEET.md` de referência rápida — ao concluir novas aulas/exercícios, atualizar o cheatsheet do módulo correspondente
 
 ### Fase 1 (pastas `01-` a `08-`)
 - Apenas Python puro — sem bibliotecas externas

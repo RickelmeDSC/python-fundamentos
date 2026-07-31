@@ -14,6 +14,8 @@ Parte da minha jornada de transição para Análise de Dados — **Semana 4 (Fas
 | 04 | Lendo dados em HTML (Wikipedia) e XML | ✅ Concluído |
 | 05 | Trabalhando com banco de dados (SQLite via SQLAlchemy) | ✅ Concluído |
 
+📋 Referência rápida de tudo que o módulo cobre: [`CHEATSHEET.md`](CHEATSHEET.md)
+
 ## 🛠 Dependências adicionais
 
 Além de pandas e jupyter, este curso usa:

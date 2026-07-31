@@ -25,9 +25,9 @@ Este repositório cobre os fundamentos de Python com foco em Dados: sintaxe, est
 
 ```
 python-fundamentos/ 
-├── 01-Variaveis-e-Tipos/
-├── 02-Condicionais-e-Loops/
-├── 03-Funcoes/
+├── 01-Variaveis-e-Tipos/          ← vazia por enquanto
+├── 02-Condicionais-e-Loops/       ← vazia por enquanto
+├── 03-Funcoes/                    ← vazia por enquanto
 ├── 04-Estrutura-De-Dados/
 │   ├── exercicio_01_soma_sublistas.py
 │   ├── exercicio_02_terceiro_elemento_tuplas.py
@@ -66,6 +66,8 @@ python-fundamentos/
     ├── 03_agrupamentos_multi_index/
     └── 04_unindo_dados/
 ```
+
+> 📋 Cada módulo com conteúdo (`04-` em diante) tem um **`CHEATSHEET.md`** — referência rápida dos métodos e armadilhas vistos no módulo, baseada nos próprios exercícios.
 
 ---
 
@@ -109,6 +111,9 @@ python-fundamentos/
 | 03 | Divisão de colunas experimentais (pressão/temperatura) | `try/except` duplo, `ValueError`, `ZeroDivisionError` |
 
 ### 08-Estatistica
+
+> ⚠️ **Pendente:** os arquivos `.py` deste módulo estão vazios — os tópicos abaixo ainda aguardam implementação. O [`CHEATSHEET.md`](08-Estatistica/CHEATSHEET.md) do módulo já cobre a teoria.
+
 | # | Descrição | Conceitos |
 |---|-----------|-----------|
 | 01 | Distribuição de frequência | classes, frequência absoluta/relativa |
@@ -139,10 +144,12 @@ O dataset (planilha do SEEG, ~78 MB) **não é versionado**. As instruções de 
 Qualquer script pode ser executado diretamente:
 
 ```bash
-python 04-Estrutura-De-Dados/exercicio_01_soma_sublistas.py
+py 04-Estrutura-De-Dados/exercicio_01_soma_sublistas.py
 ```
 
 Requisito: **Python 3.11+**
+
+> No Windows, use `py` — o comando `python` pode ser interceptado pelo alias da Microsoft Store quando o Python não foi instalado por ela.
 
 ---
 
@@ -151,6 +158,7 @@ Requisito: **Python 3.11+**
 - `snake_case` para variáveis e funções
 - Docstring no topo de cada arquivo
 - Comentários em português
+- Cada módulo com conteúdo tem um `CHEATSHEET.md` de consulta rápida
 - Fase 1 (pastas `01-` a `08-`): apenas Python puro, sem bibliotecas externas
 - Fase 2 em diante (`09-Pandas-IO/` e módulos seguintes): bibliotecas documentadas no README de cada módulo
 
