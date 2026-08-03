@@ -8,8 +8,8 @@ Parte da minha jornada de transição para Análise de Dados — **Semana 4 (Fas
 
 | Aula | Tópico | Atividades | Status |
 |------|--------|------------|--------|
-| 01 | Conhecendo os dados | 9 | 🔄 Em andamento |
-| 02 | Agrupamento de dados | 9 | ⏳ Pendente |
+| 01 | Conhecendo os dados | 9 | ✅ Concluído |
+| 02 | Agrupamento de dados | 9 | 🔄 Em andamento |
 | 03 | Agrupamentos multi-index | 10 | ⏳ Pendente |
 | 04 | Unindo dados | 15 | ⏳ Pendente |
 
@@ -25,7 +25,7 @@ Parte da minha jornada de transição para Análise de Dados — **Semana 4 (Fas
 
 ## 🛠 Dependências adicionais
 
-Nenhuma além de pandas e jupyter (já instalados desde o módulo anterior). O `openpyxl`, usado para ler a planilha do SEEG, já foi instalado no módulo `09-Pandas-IO`.
+Além de pandas e jupyter (já instalados desde o módulo anterior): `openpyxl` para ler a planilha do SEEG (instalado no módulo `09-Pandas-IO`) e `matplotlib` para os gráficos dos agrupamentos (`.plot()` da aula 02).
 
 ## 📥 Dados (não versionados)
 
