@@ -55,8 +55,8 @@ Curso Alura "Pandas I/O: trabalhando com diferentes formatos de arquivos". Depen
 ### Fase 2 — Pandas selecionando e agrupando (`10-Pandas-Selecionando-Agrupando/`)
 Curso Alura "Pandas: selecionando e agrupando dados" (Nível 1 #16). Dataset: planilha SEEG (~78 MB, aba `GEE Estados`) — **não versionada**, instruções de download em `10-Pandas-Selecionando-Agrupando/README.md`.
 - `01_conhecendo_os_dados/` — concluído
-- `02_agrupamento_de_dados/` — em andamento (melt, groupby, soma por gás, gráfico barh)
-- `03_agrupamentos_multi_index/` — pendente
+- `02_agrupamento_de_dados/` — concluído (melt, groupby, agregações, desafio hora da prática)
+- `03_agrupamentos_multi_index/` — em andamento (xs, swaplevel, idxmax/insert, pivot_table com aggfunc, desafios)
 - `04_unindo_dados/` — pendente
 
 ## Stack completa do roadmap (em ordem de aprendizado)
