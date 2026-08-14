@@ -1,5 +1,9 @@
 {
   "permissions": {
+    "allow": [
+      "Bash(jupyter nbconvert --to script *)",
+      "WebFetch(domain:pt.wikipedia.org)"
+    ],
     "deny": [
       "Read(.env*)",
       "Read(**/.env*)",
